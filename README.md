@@ -3,7 +3,7 @@ Project done as part of my work as <i>National Exchange Director</i> for <i>AIES
 
 This project aims to reduce workload of my Outgoing Exchange team through eliminating the need for manual data entry. Previously, this was done by manually checking our global CRM / information system (nicknamed EXPA) for information on our customers (commonly referred to as exchange participants or EPs), and entering the related numbers in a spreadsheet for performance tracking.
 
-Data is structured in NoSQL and can be obtained the EXPA API. The code extracts all sign-ups within a specified date range, and processes it to keep only the fields relevant to our daily processes e.g. name, contact information, 
+Data is structured in NoSQL and can be obtained the EXPA API. The code extracts all sign-ups within a specified date range, and processes it to keep only the fields relevant to our daily processes e.g. name, customer status, contact information, etc.
 
 This is useful for extracting large amounts of customer data at one go, typically for periodic reviews, as the EXPA front-end isn't particularly fast - it can write the output into a CSV file for easier readibility.
 
