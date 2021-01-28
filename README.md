@@ -8,6 +8,6 @@ Data is structured in NoSQL and can be obtained the EXPA API. The code extracts 
 This is useful for extracting large amounts of customer data at one go, typically for periodic reviews, as the EXPA front-end isn't particularly fast - it can write the output into a CSV file for easier readibility.
 
 Note:
-*EXPA data is restricted to AIESEC members only, hence a developer token is required. If you are an AIESEC member looking to automate your processes, please refer to this [link](https://expa.aiesec.org/resource-center/pages/830) to get a token for yourself (AIESEC login required). Do note that the access permissions of your token is the same as that of your AIESEC account (e.g. you will only be able to access data of sign-ups for your entire country if you are a country-level manager).
+* EXPA data is restricted to AIESEC members only, hence a developer token is required. If you are an AIESEC member looking to automate your processes, please refer to this [link](https://expa.aiesec.org/resource-center/pages/830) to get a token for yourself (AIESEC login required). Do note that the access permissions of your token is the same as that of your AIESEC account (e.g. you will only be able to access data of sign-ups for your entire country if you are a country-level manager).
 
 This is an improved version of the [previous iteration](https://github.com/kaiwei-tan/expa_automator_mk1), done in Python.
